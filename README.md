@@ -4,7 +4,7 @@
 
 This lesson will introduce you to Shotgun and how to use it with Sinatra apps. We'll also cover troubleshooting common problems that you might encounter when running Shotgun. 
 
-## Objectives
+## Objectives 
 
 1. Explain how using `rackup` to start a Sinatra application will only read the code once at boot 
 2. Describe how Shotgun allows for automatic code reloading
@@ -53,6 +53,7 @@ You can install Shotgun via `gem install shotgun`. You should also require it in
 
 Within a Rack or Sinatra application directory, you can start the application via Shotgun by simply executing `shotgun` in your terminal. You should see something like:
 
+<!-- Shotgun is more flexible than rackup-->
 ```
 $ shotgun
 == Shotgun/Thin on http://127.0.0.1:9393/
